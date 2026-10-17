@@ -624,3 +624,29 @@ body { background: #F5FAFF; color: #13283D; }
   .contact-section .contact-method a,
   .contact-section .contact-method div > span { font-size: 16px !important; }
 }
+/* Mobile responsive fix */
+@media (max-width: 768px) {
+  * {
+    box-sizing: border-box;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .container,
+  .hero,
+  .section,
+  .gallery,
+  .grid {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+}
+
+
